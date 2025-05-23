@@ -14,3 +14,21 @@
 .users-list-item.active , .users-list-item.active .collapsible-header{
     background-color: rgb(227, 237, 246);
 }
+
+*{
+    direction: rtl;
+    font-family: "BYekan";
+}
+.margin-0{
+    margin: 0 0 0 25px !important;
+}
+@font-face{
+    src:url(/assets/BYekan-webfont.eot)format("eot") ,
+    url(/assets/BYekan-webfont.ttf)format("ttf") ,
+    url(/assets/BYekan-webfont.woff)format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.border-radius{
+    border-radius:20px 20px 0 0;
+}

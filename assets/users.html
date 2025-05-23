@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/materialize/css/materialize-rtl.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/util.css">
+    
     <title>Document</title>
 </head>
 <body dir="rtl">
@@ -18,9 +19,9 @@
 
       <a href="#!" class="hide-on-med-and-up"></a>
 
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
 
-      <ul class=" hide-on-med-and-down">
+      <ul class=" hide-on-med-and-down display-flex">
 
         <li><a href="">home</a></li>
 
@@ -48,9 +49,9 @@
       <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
 
     </div></li>
-    <li><a href="https://codeyad.com" ><i class="material-icons">insert_link</i>fast learn</a></li>
+    <li><a href="https://codeyad.com" ><i class="material-icons ">insert_link</i>fast learn</a></li>
 
-    <li><a href=" https://codeyad.com"><i class="material-icons">insert_link</i>codeyad</a></li>
+    <li><a href=" https://codeyad.com"><i class="material-icons ">insert_link</i>codeyad</a></li>
     <li><div class="divider"></div></li>
 
     <li><a class="subheader">Pages</a></li>
@@ -59,7 +60,7 @@
     <li><a class="waves-effect waves-light btn purple lighten-2" href="/useas.html">Users</a></li>
   </ul>
   <!--add button-->
-     <section id="top_actions_section" class="row display-flex">
+     <section id="top_actions_section" class="row display-flex container">
 <div class="p-l-20 p-r-20 col s12 m3 l2">
     <button class="waves-effect waves-light btn purple lighten-2 p-r-30 p-l-30  m-t-7 w-full flex-c">
         <i class="material-icons m-r-5 ">add</i>
@@ -75,7 +76,53 @@
           
         </div>
         <div class="col s12 m4 l2"></div>
-     </section>     
+     </section> 
+     
+     <section >
+      <table class="responsive-table container striped highlight">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Item Name</th>
+              <th>Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+            
+<div class=" pagination_container container flex-sb-m p-r-10 p-l-10 p-t-10 p-b-10 pos-fixed left-0 right-0 bottom-0  z-depth-7 border-radius">
+  <div class="p-r-6 flex-l-m ">
+    showing
+    <span class="m-r-5 m-l-5 max-w-50 ">
+      <input type="number" class="purple-text lighten-2 no-border center-align m-b-0 " value="10">
+    </span>
+    of
+    <span class="m-r-5 m-l-5 max-w-50 purple-text lighten-2">100</span>
+  </div>
+
+<div class="pagination_buttons">
+  <i class=" m-l-5 m-l-5 p-l-5 waves-effect waves-light purple lighten-2 material-icons white-text rounded_pill ">keyboard_arrow_right</i>
+  <i class="m-l-5 m-l-5 p-l-5 waves-effect waves-light purple lighten-2 material-icons white-text  rounded_pill">keyboard_arrow_left</i>
+</div>
+</div>
+     </section>
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
