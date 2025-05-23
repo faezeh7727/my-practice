@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.css">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize-rtl.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/util.css">
     <title>Document</title>
 </head>
-<body>
-    <!--_____navbar part___________-->
-<nav class=" purple lighten-2  top-navbar">
+<body dir="rtl">
+    <nav class=" purple lighten-2  top-navbar">
 
     <div class="nav-wrapper">
 
-      <a href="#!" class="hide-on-med-and-up">home</a>
+      <a href="#!" class="hide-on-med-and-up"></a>
 
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
@@ -57,130 +58,27 @@
     
     <li><a class="waves-effect waves-light btn purple lighten-2" href="/useas.html">Users</a></li>
   </ul>
-  <!--add user part-->
-  <section id="top_actions_section" class="row display-flex">
-    <div class= "p-r-20 p-l-20 col s12 m3 l2">
-        <button class="waves-effect waves-light btn purple lighten-2 w-full m-t-8 p-l-20 p-r-20 flex-c">
-            <i class="material-icons m-r-5">add</i>
-            Add user
-        </button>
-    </div>
-    <!-- search input-->
-    <div class="row col s12 m6 l8 m-b-0">
-        <div class="input-field col s12 ">
+  <!--add button-->
+     <section id="top_actions_section" class="row display-flex">
+<div class="p-l-20 p-r-20 col s12 m3 l2">
+    <button class="waves-effect waves-light btn purple lighten-2 p-r-30 p-l-30  m-t-7 w-full flex-c">
+        <i class="material-icons m-r-5 ">add</i>
+        Add User
+    </button >
+    <!--search input-->
+</div>
+<div class="row col s12 m6 l8 m-b-0">
+        <div class="input-field col s12">
           <input  id="search" type="text" class="validate">
+          <label for="disabled"><i class="material-icons pos-relative top-7 ">search</i>
+            search </label>
           
-          <label for="disabled"><i class="material-icons pos-relative top-7">search</i>search</label>
         </div>
-        <div class="col s12 m3 l2"></div>
-  </section>
-  <!--users list mobile-->
-  <section id="users-list-section" class="row m-b-0">
-    <ul class="collapsible hide-on-med-and-up">
-    <li class="users-list-item">
-      <div class="collapsible-header"><i class="material-icons purple-text lighten-2 users-list-arrow-icon trans-0-2">arrow_drop_down_circle</i>Faezeh</div>
-      <div class="collapsible-body">
-        <div class="p-all-5">
-        <span class="f-bold">username:</span>
-        <span>faeze2777</span>
-        </div>
-        <div class="p-all-5">
-          <span class="f-bold">email:</span>
-          <span>gfaeze561@.com</span>
-        </div>
-        <div class="p-all-5">
-          <span class="f-bold">address:</span>
-          <span>andimeshk khozestan</span>
-        </div>
-        <div class="p-all-5 flex-l-m">
-          <span class="f-bold ">action:</span>
-          <i class="red-text m-r-5 m-l-5 material-icons">delete_forever</i>
-          <i class="red-text m-r-5 m-l-5 material-icons">edit</i>
-        </div>
-      </div>
-    </li>
-    <ul class="collapsible hide-on-med-and-up">
-    <li class="users-list-item">
-      <div class="collapsible-header"><i class="material-icons purple-text lighten-2 users-list-arrow-icon trans-0-2">arrow_drop_down_circle</i>Faezeh</div>
-      <div class="collapsible-body">
-        <div class="p-all-5">
-        <span class="f-bold">username:</span>
-        <span>faeze2777</span>
-        </div>
-        <div class="p-all-5">
-          <span class="f-bold">email:</span>
-          <span>gfaeze561@.com</span>
-        </div>
-        <div class="p-all-5">
-          <span class="f-bold">address:</span>
-          <span>andimeshk khozestan</span>
-        </div>
-        <div class="p-all-5 flex-l-m">
-          <span class="f-bold ">action:</span>
-          <i class="red-text m-r-5 m-l-5 material-icons">delete_forever</i>
-          <i class="red-text m-r-5 m-l-5 material-icons">edit</i>
-        </div>
-      </div>
-    </li>
-    <ul class="collapsible hide-on-med-and-up">
-    <li class="users-list-item">
-      <div class="collapsible-header"><i class="material-icons purple-text lighten-2 users-list-arrow-icon trans-0-2">arrow_drop_down_circle</i>Faezeh</div>
-      <div class="collapsible-body">
-        <div class="p-all-5">
-        <span class="f-bold">username:</span>
-        <span>faeze2777</span>
-        </div>
-        <div class="p-all-5">
-          <span class="f-bold">email:</span>
-          <span>gfaeze561@.com</span>
-        </div>
-        <div class="p-all-5">
-          <span class="f-bold">address:</span>
-          <span>andimeshk khozestan</span>
-        </div>
-        <div class="p-all-5 flex-l-m">
-          <span class="f-bold ">action:</span>
-          <i class="red-text m-r-5 m-l-5 material-icons">delete_forever</i>
-          <i class="red-text m-r-5 m-l-5 material-icons">edit</i>
-        </div>
-      </div>
-    </li>
-  </ul>
-  <!--users list desktop size-->
-  <div class="hide-on-med-and-down  show-on-medium-and-up ">
-<table class="striped">
-        <thead>
-          <tr>
-              <th>Name</th>
-              <th>Item Name</th>
-              <th>Item Price</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>Alvin</td>
-            <td>Eclair</td>
-            <td>$0.87</td>
-          </tr>
-          <tr>
-            <td>Alan</td>
-            <td>Jellybean</td>
-            <td>$3.76</td>
-          </tr>
-          <tr>
-            <td>Jonathan</td>
-            <td>Lollipop</td>
-            <td>$7.00</td>
-          </tr>
-        </tbody>
-      </table>
-  </div>
-  </section>
-
+        <div class="col s12 m4 l2"></div>
+     </section>     
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/users.js"></script>
+
 </body>
 </html>
